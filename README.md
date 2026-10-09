@@ -195,7 +195,6 @@ bart rss 8 pocs_abs pocs_rss
 
 The POCSENSE output is transformed back into image space before magnitude calculation and coil combination.
 
-**Note:** These commands assume that the input files, dimensions, sampling mask, and sensitivity maps have been prepared consistently. Consult the scripts for the exact conventions used in each experiment.
 
 ## Future Work
 
