@@ -166,25 +166,6 @@ This is a preliminary result, not evidence that POCS methods are generally infer
 **Homodyne results are pending implementation and validation.** They will be added after the method has been run against the same reference data and evaluated with the same metrics.
 
 
-## Repository Structure
-
-```text
-MRI-Partial-Fourier-Reconstruction/
-├── README.md
-├── scripts/
-│   ├── make_pf.py
-│   ├── make_two_pf.py
-│   ├── metrics.py
-│   └── homodyne.py
-├── results/
-│   ├── phantom_reference.png
-│   ├── zf_image.png
-│   ├── pocs_image.png
-│   └── homodyne_image.png
-└── requirements.txt
-```
-
-The structure above is the proposed organization. Include files and results as they are implemented; do not commit generated files that are not yet available. Large intermediate k-space arrays can be regenerated from the scripts and generally do not need to be stored in Git.
 
 ## Running the BART Experiments
 
